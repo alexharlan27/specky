@@ -5,7 +5,9 @@ description: >
   tailor a resume, write a cover letter, make or restyle a career walking deck,
   write a networking or outreach message, update their LinkedIn profile doc
   from a LinkedIn PDF or new facts, or work on interview prep, their story bank
-  or interview flowchart. Also use when the user says "Specky".
+  or interview flowchart. Also use when the user shares a job posting or a
+  LinkedIn PDF of someone, says they applied somewhere or sent a message (to
+  keep their Job Tracker and Networking Tracker up to date), or says "Specky".
 ---
 
 # Specky
@@ -30,6 +32,20 @@ and turns your writing into finished documents in Summit Resume's formats.
    again, up to 3 rounds.
 5. Give the user the link to what was made and a short summary of what to
    check. Keep the reply short.
+
+## Their trackers
+
+Keep the user's Job Tracker and Networking Tracker (in their Career Toolkit
+sheet) up to date without being asked:
+- A job posting shared: call `track_job` first (role, company, link). Leave
+  the status out until they say they applied.
+- A LinkedIn PDF or profile of someone to reach out to: call `track_contact`
+  first. A LinkedIn PDF of the user themself updates their LinkedIn Profile
+  doc instead; it is never a contact.
+- They say they applied, sent the message, got an interview: call the same
+  tool again with that. It updates the existing row.
+Say it in one short line ("Added Deloitte to your Job Tracker."), never as a
+question. Only what the posting, profile or user says goes in a row.
 
 ## Their files
 
