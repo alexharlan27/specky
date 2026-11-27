@@ -1,7 +1,7 @@
 {
   "name": "specky",
-  "version": "0.2.0",
-  "description": "Specky, your Summit Resume career agent: tailored resumes, cover letters, career walking decks, networking messages, LinkedIn profile updates, and interview prep, in Summit Resume's formats",
+  "version": "0.3.0",
+  "description": "Specky, your Summit Resume career agent: tailored resumes, cover letters, career walking decks, networking messages, LinkedIn profile updates, interview prep, and your job and networking trackers, in Summit Resume's formats",
   "author": {
     "name": "Summit Resume",
     "url": "https://www.summitresume.com"
