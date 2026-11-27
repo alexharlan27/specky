@@ -11,7 +11,9 @@ formats and saved to your own Google Drive.
 You need a paid Claude plan (Pro or above).
 
 1. In Claude, open **Customize**, then **Plugins**, then **Add**, then
-   **Add marketplace**, and enter `alexharlan27/specky`. Install **Specky**.
+   **Add marketplace**, choose **Add from a repository**, enter `alexharlan27/specky`, leave
+   **Sync automatically** on (that is how you get updates), and click
+   **Sync**. Then install **Specky** from the **summit-resume** marketplace.
 2. Connect **Google Drive** in your connectors.
 3. Connect **Specky** and sign in with the email you use with Summit Resume.
 
