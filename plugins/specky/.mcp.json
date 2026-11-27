@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "specky": {
+      "type": "http",
+      "url": "https://www.summitresume.com/api/specky/mcp"
+    }
+  }
+}

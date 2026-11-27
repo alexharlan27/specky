@@ -1,0 +1,15 @@
+{
+  "name": "summit-resume",
+  "description": "Summit Resume's career agents for coaching clients and CareerOS students",
+  "owner": {
+    "name": "Summit Resume",
+    "url": "https://www.summitresume.com"
+  },
+  "plugins": [
+    {
+      "name": "specky",
+      "source": "./plugins/specky",
+      "description": "Specky, your Summit Resume career agent: tailored resumes, cover letters, career walking decks, networking messages, LinkedIn profile updates, and interview prep, in Summit Resume's formats"
+    }
+  ]
+}
